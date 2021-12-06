@@ -46,7 +46,7 @@
        id="listbox1"
        aria-labelledby="combo1-label"
        tabindex="-1">
-      <div role="option" id = "op1" value = "Jackfruit">Jackfruit</div>
+      <div role="option" id = "op1">Jackfruit</div>
        <div role="option" id = "op2">Guava</div>
       <div role="option" id = "op3">Apple</div>
       <div role="option" id = "op4">Grapes</div>
@@ -62,10 +62,10 @@
   <option value="mercedes">Mercedes</option>
   <option value="audi">Audi</option>
 </select>
-        <label for="cars">Choose a car:</label>
-<select name="cars" id="cars">
-  <optgroup label="Swedish Cars">
-    <option value="volvo">Volvo</option>
+        <label for="car1">Choose a brand car:</label>
+<select name="cars" id="car1">
+  <optgroup label="Swedish Cars" for = "Swedish cars">
+    <option value="volvo" id= "Swedish cars" >Volvo</option>
     <option value="saab">Saab</option>
   </optgroup>
   <optgroup label="German Cars">
